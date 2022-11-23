@@ -5,8 +5,46 @@
 
 body{
     background-color: #fbfb9b;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 4rem 0;
 }
+.box{
+	text-align: center;
+}
+.card-search{
+	margin-top: 2rem;
+}
+.search{
+	border-radius: 1.5rem;
+	border: 2px solid #c00d0d;
+	padding: .8rem 2rem;
+	width: 100%;
+	font-weight: 700;
+	background-color: transparent;
+	box-shadow: 3px 3px 3px black;
+	margin-right: .5rem;
+}
+.submit{
+	background-color:#c00d;
+	border: none;
+	padding: .5rem 1rem;
+	font-weight: 700;
+	color: #fbfb9b;
+	border-radius:.5rem;
 
+}
+.submit:hover{
+	box-shadow: 3px 3px 3px black inset;
+}
+form{
+	display: flex;
+}
+h2{
+	color: #d60707;
+}
 @media all {
 
 	div#pokedex
